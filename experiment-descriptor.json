@@ -2,13 +2,14 @@
   "unit-type": "lu",
   "label": "",
   "basedir": ".",
+  "LaTeXinMD": false,
   "units": [
     {
       "unit-type": "aim"
     },
     {
       "unit-type": "task",
-      "label": "aim",
+      "label": "Aim",
       "content-type": "text",
       "source": "aim.md",
       "target": "aim.html"
@@ -37,7 +38,7 @@
     {
       "unit-type": "lu",
       "label": "Simulation",
-      "basedir": "Simulation",
+      "basedir": "simulation",
       "units": [
         {
           "unit-type": "aim"
@@ -48,8 +49,8 @@
           "unit-type": "task",
           "label": " Leaf",
           "content-type": "simulation",
-          "source": "simulation/leaf.html",
-          "target": "leaf.html"
+          "source": "simulation/index.html",
+          "target": "index.html"
         },
 	{
           "unit-type": "task",
