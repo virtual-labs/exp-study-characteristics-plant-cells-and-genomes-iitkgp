@@ -1,11 +1,18 @@
-EMPTY
-<!-- Remove all lines above this line before making changes to the file -->
-### Subject Matter Experts
-| SNo. | Name | Email | Institute | ID |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
 
-### Developers
-| SNo. | Name | Email | Institute | ID |
+## Subject Matter Expert
+<b>Name  | <b> Prof. Padmavati Manchikanti
+:--|:--|
+<b> Institute | <b>  IIT Kharagpur
+<b> Email id|     <b>  mpadma@rgsoipl.iitkgp.ac.in
+<b> Department |  Rajiv Gandhi School of IP Law
+
+## Developer and Integation Engineer
+| SNo. | Name | Designation | Department| Institute| 
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| 1 | **Prakriti Dhang** | Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
+
+## Contributors List
+Sr No | Name |  Designation | Department| Institute| 
+:--|:--|:--|:--|:--|
+1 | **Madhusmita Nanda** | MSc| Interdisciplinary Sciences and Engineering | IIT Kharagpur |
+2 | ** **  | M.Tech | Interdisciplinary Sciences and Engineering | IIT Kharagpur |
