@@ -11,8 +11,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | **Prakriti Dhang** | Project Scientist | Department of Mechanical Engineering | IIT Kharagpur |
 
-## Contributors List
+## Contributor List
 Sr No | Name |  Designation | Department| Institute| 
 :--|:--|:--|:--|:--|
 1 | **Madhusmita Nanda** | MSc| Interdisciplinary Sciences and Engineering | IIT Kharagpur |
-2 | ** **  | M.Tech | Interdisciplinary Sciences and Engineering | IIT Kharagpur |
