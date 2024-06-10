@@ -19,9 +19,7 @@
       "label": "Leaf cell",
       "basedir": "leaf",
       "units": [
-        {
-          "unit-type": "aim"
-        },
+        
         {
           "unit-type": "task",
           "label": "  Aim",
@@ -60,7 +58,13 @@
       "basedir": "flower",
       "units": [
        
-       
+        {
+          "unit-type": "task",
+          "label": "  Aim",
+          "content-type": "text",
+          "source": "aim.md",
+          "target": "aim.html"
+        },
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -91,7 +95,11 @@
       "basedir": "root",
       "units": [
         {
-          "unit-type": "aim"
+          "unit-type": "task",
+          "label": "  Aim",
+          "content-type": "text",
+          "source": "aim.md",
+          "target": "aim.html"
         },
         {
           "unit-type": "task",
@@ -123,8 +131,15 @@
       "basedir": "stem",
       "units": [
         {
-          "unit-type": "aim"
+          "unit-type": ""
         
+        },
+        {
+          "unit-type": "task",
+          "label": "  Aim",
+          "content-type": "text",
+          "source": "aim.md",
+          "target": "aim.html"
         },
         {
           "unit-type": "task",
