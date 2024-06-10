@@ -61,20 +61,20 @@
       "basedir": "flower",
       "units": [
         {
-          "unit-type": ""
+          "unit-type": "aim"
         
         },
        
         {
           "unit-type": "task",
-          "label": "  Aim",
+          "label": "  Theory",
           "content-type": "text",
-          "source": "aim.md",
-          "target": "aim.html"
+          "source": "theory.md",
+          "target": "theory.html"
         },
         {
           "unit-type": "task",
-          "label": "  Theory",
+          "label": "  Video",
           "content-type": "text",
           "source": "theory.md",
           "target": "theory.html"
@@ -105,13 +105,7 @@
           "unit-type": "aim"
         
         },
-        {
-          "unit-type": "task",
-          "label": "  Aim",
-          "content-type": "text",
-          "source": "aim.md",
-          "target": "aim.html"
-        },
+       
         {
           "unit-type": "task",
           "label": "  Theory",
