@@ -7,4 +7,4 @@
 - Stem cell
 
 
-** Part B** To study characteristics of plant genome.
+**Part B** To study characteristics of plant genome.
