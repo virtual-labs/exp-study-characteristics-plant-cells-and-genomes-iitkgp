@@ -23,13 +23,7 @@
           "unit-type": "aim"
         
         },
-        {
-          "unit-type": "task",
-          "label": "  Aim",
-          "content-type": "text",
-          "source": "aim.md",
-          "target": "aim.html"
-        },
+        
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -72,13 +66,7 @@
           "source": "theory.md",
           "target": "theory.html"
         },
-        {
-          "unit-type": "task",
-          "label": "  Video",
-          "content-type": "text",
-          "source": "theory.md",
-          "target": "theory.html"
-        },
+        
         {
           "unit-type": "task",
           "label": "Procedure",
@@ -139,13 +127,7 @@
           "unit-type": "aim"
         
         },
-        {
-          "unit-type": "task",
-          "label": "  Aim",
-          "content-type": "text",
-          "source": "aim.md",
-          "target": "aim.html"
-        },
+        
         {
           "unit-type": "task",
           "label": "  Theory",
