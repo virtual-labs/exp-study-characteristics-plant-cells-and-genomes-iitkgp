@@ -14,13 +14,7 @@
       "source": "pretest.json",
       "target": "pretest.html"
     },
-    {
-      "unit-type": "lu",
-      "label": "Plant cell",
-      "basedir": "plantcell",
-      "units": [
-    
-    {
+   {
       "unit-type": "lu",
       "label": "Leaf cell",
       "basedir": "leaf",
@@ -124,7 +118,11 @@
       "basedir": "stem",
       "units": [
         {
-          "unit-type": "aim"
+          "unit-type": "aim",
+          "label": "  Aim",
+          "content-type": "text",
+          "source": "aim.md",
+          "target": "aim.html"
         },
         {
           "unit-type": "task",
@@ -149,8 +147,7 @@
           "target": "index.html"
         } 
       ]
-    }
-  ]
+   
 },
 {
       "unit-type": "task",
