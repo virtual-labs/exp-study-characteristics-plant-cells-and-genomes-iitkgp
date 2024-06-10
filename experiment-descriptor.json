@@ -17,10 +17,8 @@
     {
       "unit-type": "lu",
       "label": "Plant cell",
-      "basedir": "plant",
+      "basedir": "plantcell",
       "units": [
-
-    
     
     {
       "unit-type": "lu",
