@@ -20,7 +20,7 @@
       "basedir": "leaf",
       "units": [
         {
-          "unit-type": ""
+          "unit-type": "aim"
         
         },
         {
@@ -61,7 +61,7 @@
       "basedir": "flower",
       "units": [
         {
-          "unit-type": ""
+          "unit-type": "aim"
         
         },
        
@@ -102,7 +102,7 @@
       "basedir": "root",
       "units": [
         {
-          "unit-type": ""
+          "unit-type": "aim"
         
         },
         {
@@ -142,7 +142,7 @@
       "basedir": "stem",
       "units": [
         {
-          "unit-type": ""
+          "unit-type": "aim"
         
         },
         {
