@@ -46,7 +46,7 @@
     },
     {
       "unit-type": "lu",
-      "label": "Flower cell",
+      "label": "Flower",
       "basedir": "flower",
       "units": [
         {
