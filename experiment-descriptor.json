@@ -23,14 +23,14 @@
         },
         {
           "unit-type": "task",
-          "label": "  Theory",
+          "label": "Theory",
           "content-type": "text",
           "source": "theory.md",
           "target": "theory.html"
         },
         {
           "unit-type": "task",
-          "label": "Procedure",
+          "label": " Procedure",
           "content-type": "text",
           "source": "procedure.md",
           "target": "procedure.html"
@@ -39,9 +39,10 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexleaf.html",
-          "target": "index.html"
+          "source": "simulation/indexrice.html",
+          "target": "indexrice.html"
         }
+
       ]
     },
     {
