@@ -75,68 +75,7 @@
         }
       ]
     },
-    {
-      "unit-type": "lu",
-      "label": "Root cell",
-      "basedir": "root",
-      "units": [
-        {
-          "unit-type": "aim"
-        },
-        {
-          "unit-type": "task",
-          "label": "  Theory",
-          "content-type": "text",
-          "source": "theory.md",
-          "target": "theory.html"
-        },
-        {
-          "unit-type": "task",
-          "label": "Procedure",
-          "content-type": "text",
-          "source": "procedure.md",
-          "target": "procedure.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Simulation",
-          "content-type": "simulation",
-          "source": "simulation/indexroot.html",
-          "target": "index.html"
-        }
-      ]
-    },
-    {
-      "unit-type": "lu",
-      "label": "Stem cell",
-      "basedir": "stem",
-      "units": [
-        {
-          "unit-type": "aim"
-        },
-        {
-          "unit-type": "task",
-          "label": "  Theory",
-          "content-type": "text",
-          "source": "theory.md",
-          "target": "theory.html"
-        },
-        {
-          "unit-type": "task",
-          "label": "Procedure",
-          "content-type": "text",
-          "source": "procedure.md",
-          "target": "procedure.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Simulation",
-          "content-type": "simulation",
-          "source": "simulation/indexstem.html",
-          "target": "index.html"
-        }
-      ]
-    },
+   
     {
       "unit-type": "lu",
       "label": "Rice",
