@@ -1,7 +1,5 @@
-### Aim 
+### Aim
 
-To study characteristics of flower cell.
-
-
+To study characteristics of leaf cell.
 
 
