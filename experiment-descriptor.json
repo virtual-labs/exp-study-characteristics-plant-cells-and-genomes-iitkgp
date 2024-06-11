@@ -143,7 +143,39 @@
     },
     {
       "unit-type": "lu",
-      "label": "Rice",
+      "label": "Arabidopsis genome",
+      "basedir": "arabidopsis",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexrice.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Rice genome",
       "basedir": "rice",
       "units": [
         {
