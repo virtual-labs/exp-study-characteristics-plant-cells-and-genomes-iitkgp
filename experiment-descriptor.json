@@ -6,7 +6,6 @@
     {
       "unit-type": "aim"
     },
-
     {
       "unit-type": "task",
       "label": "Pretest",
@@ -14,7 +13,7 @@
       "source": "pretest.json",
       "target": "pretest.html"
     },
-   {
+    {
       "unit-type": "lu",
       "label": "Leaf cell",
       "basedir": "leaf",
@@ -22,7 +21,6 @@
         {
           "unit-type": "aim"
         },
-        
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -37,15 +35,13 @@
           "source": "procedure.md",
           "target": "procedure.html"
         },
-	
         {
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexleaf.html",
           "target": "index.html"
-        }   
-	
+        }
       ]
     },
     {
@@ -56,7 +52,6 @@
         {
           "unit-type": "aim"
         },
-       
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -64,7 +59,6 @@
           "source": "theory.md",
           "target": "theory.html"
         },
-        
         {
           "unit-type": "task",
           "label": "Procedure",
@@ -72,14 +66,13 @@
           "source": "procedure.md",
           "target": "procedure.html"
         },
-	
         {
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexflower.html",
           "target": "index.html"
-        } 
+        }
       ]
     },
     {
@@ -90,7 +83,6 @@
         {
           "unit-type": "aim"
         },
-       
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -105,17 +97,16 @@
           "source": "procedure.md",
           "target": "procedure.html"
         },
-	
         {
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexroot.html",
           "target": "index.html"
-        } 
+        }
       ]
     },
-        {
+    {
       "unit-type": "lu",
       "label": "Stem cell",
       "basedir": "stem",
@@ -123,7 +114,6 @@
         {
           "unit-type": "aim"
         },
-        
         {
           "unit-type": "task",
           "label": "  Theory",
@@ -138,87 +128,81 @@
           "source": "procedure.md",
           "target": "procedure.html"
         },
-	
         {
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
           "source": "simulation/indexstem.html",
           "target": "index.html"
-        } 
+        }
       ]
-   
-},
-
-{
-  "unit-type": "lu",
-  "label": "Rice",
-  "basedir": "rice",
-  "units": [
-    {
-      "unit-type": "aim"
     },
     {
-      "unit-type": "task",
-      "label": "Concept",
-      "content-type": "video",
-      "source": "overview.md",
-      "target": "overview.html"
+      "unit-type": "lu",
+      "label": "Rice",
+      "basedir": "rice",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Concept",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Demo",
+          "content-type": "simulation",
+          "source": "simulation/stackdemo.html",
+          "target": "stackdemo.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Arrays Practice",
+          "content-type": "simulation",
+          "source": "simulation/stackarrays.html",
+          "target": "stackarrays.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "  Time Complexity",
+          "content-type": "video",
+          "source": "time-complexity.md",
+          "target": "time-complexity.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Linked List Practice",
+          "content-type": "simulation",
+          "source": "simulation/stack-linkedlist.html",
+          "target": "stack-linkedlist.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Exercise",
+          "content-type": "simulation",
+          "source": "simulation/stack-exercise.html",
+          "target": "stack-exercise.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Quiz",
+          "content-type": "assesment",
+          "source": "stacks-quiz.json",
+          "target": "stacks-quiz.html"
+        }
+      ]
     },
-
     {
-      "unit-type": "task",
-      "label": " Demo",
-      "content-type": "simulation",
-      "source": "simulation/stackdemo.html",
-      "target": "stackdemo.html"
-    },
-{
-      "unit-type": "task",
-      "label": " Arrays Practice",
-      "content-type": "simulation",
-      "source": "simulation/stackarrays.html",
-      "target": "stackarrays.html"
-    },
-{
-      "unit-type": "task",
-      "label": "  Time Complexity",
-      "content-type": "video",
-      "source": "time-complexity.md",
-      "target": "time-complexity.html"
-    },
-    {
-      "unit-type": "task",
-      "label": " Linked List Practice",
-      "content-type": "simulation",
-      "source": "simulation/stack-linkedlist.html",
-      "target": "stack-linkedlist.html"
-    },
-{
-      "unit-type": "task",
-      "label": " Exercise",
-      "content-type": "simulation",
-      "source": "simulation/stack-exercise.html",
-      "target": "stack-exercise.html"
-    },
-{
-  "unit-type": "task",
-  "label": "Quiz",
-  "content-type": "assesment",
-  "source": "stacks-quiz.json",
-  "target": "stacks-quiz.html"
-}
-  ]
-},
-
-{
       "unit-type": "task",
       "label": "Posttest",
       "content-type": "assesment",
       "source": "posttest.json",
       "target": "posttest.html"
     },
-   
     {
       "unit-type": "task",
       "label": "References",
