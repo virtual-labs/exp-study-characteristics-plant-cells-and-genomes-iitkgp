@@ -39,7 +39,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexrice.html",
+          "source": "simulation/indexleaf.html",
           "target": "indexrice.html"
         }
 
@@ -103,7 +103,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexrice.html",
+          "source": "simulation/indexroot.html",
           "target": "indexrice.html"
         }
 
