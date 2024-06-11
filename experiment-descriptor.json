@@ -71,7 +71,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexrice.html",
+          "source": "simulation/indexflower.html",
           "target": "indexrice.html"
         }
 
@@ -135,7 +135,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexrice.html",
+          "source": "simulation/indexstem.html",
           "target": "indexrice.html"
         }
 
@@ -167,7 +167,7 @@
           "unit-type": "task",
           "label": " Simulation",
           "content-type": "simulation",
-          "source": "simulation/indexrice.html",
+          "source": "simulation/indexarabidopsis.html",
           "target": "indexrice.html"
         }
 
