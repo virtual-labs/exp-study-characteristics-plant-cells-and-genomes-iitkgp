@@ -8,11 +8,19 @@
     },
     {
       "unit-type": "task",
+      "label": "Overview",
+      "content-type": "text",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+    {
+      "unit-type": "task",
       "label": "Pretest",
       "content-type": "assesment",
       "source": "pretest.json",
       "target": "pretest.html"
     },
+    
     {
       "unit-type": "lu",
       "label": "Leaf cell",
