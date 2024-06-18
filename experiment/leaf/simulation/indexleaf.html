@@ -25,15 +25,15 @@
 						<ol id="inst1">
 
 
-							<li> Take a small section of leaf area between veins and place it in a cork.</li>>
-							<li> Cut a small section of the leaf</li>>
-							<li> Shift these sections with the help of a brush in or watch glass containing water.</li>>
-							<li> Transfer the leaf section onto a glass microscope slide.</li>>
-							<li> Add a drop of water to the leaf</li>>
+							<li> Take a small section of leaf area between veins and place it in a cork.</li>
+							<li> Cut a small section of the leaf</li>
+							<li> Shift these sections with the help of a brush in or watch glass containing water.</li>
+							<li> Transfer the leaf section onto a glass microscope slide.</li>
+							<li> Add a drop of water to the leaf</li>
 							<li> place a coverslip over the leaf section</li>
-							<li> Place the prepared clean slide on the stage of the microscope</li>>
-							<li> Start with the magnification objective lens</li>>
-							<li> You will see a figure like this of the cross section of the leaf</li>>
+							<li> Place the prepared clean slide on the stage of the microscope</li>
+							<li> Start with the magnification objective lens</li>
+							<li> You will see a figure like this of the cross section of the leaf</li>
 						</ol>
 					</div>
 				</div>
@@ -51,16 +51,7 @@
 					<div class="card-body">
 						<!--div class="table-responsive"-->
 						<table class="table table-bordered">
-							<tr>
-								<td colspan="2">
-									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
-										data-bs-target="#exampleModal">
-										Start the Experiment</button-->
-									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
-										onclick="restartexp()">
-										Re-Do the Experiment</button>
-								</td>
-							</tr>
+
 							<!--tr>
 								<td>
 									<select class="form-select" aria-label="Default select example">
@@ -73,34 +64,46 @@
 								</td>
 							</tr-->
 							<tr>
-								<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Blade</button>
-								<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									cork</button>
-								<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Petri dish</button>
-								<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Beaker</button>
-								<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Glass Slide</button>
-								<button class="btn btn-info " type="button" id="cglassi" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Cover Glass</button>
-								<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Dropper</button>
-								<button class="btn btn-info " type="button" id="needlei" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Needle</button>
-								<button class="btn btn-info " type="button" id="microscopei" data-bs-toggle="modal"
-									data-bs-target="#exampleModal">
-									Mircoscope</button>
+								<td>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										cork</button>
+									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Petri dish</button>
+										<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Beaker</button>
+									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Dropper</button>
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+									<button class="btn btn-info " type="button" id="cglassi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Cover Glass</button>
+										
+									<!--button class="btn btn-info " type="button" id="needlei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Needle</button-->
+									<button class="btn btn-info " type="button" id="microscopei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Mircoscope</button>
 
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Start the Experiment</button-->
+									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+										onclick="restartexp()">
+										Re-Do the Experiment</button>
 								</td>
 							</tr>
 						</table>
@@ -109,15 +112,61 @@
 			</div>
 		</div>
 		<div class="row ">
-			<div class="col-md-4">
-				<img src="./images/leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-					title="Leaf" id="leafcss">
+			<div class="col-md-8 border border-1">
+				<div class="card card-body">
+					<img src="./images/leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcss">
+						<img src="./images/cutleafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcutsection">
+					<img src="./images/leafcut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafcutcss" onclick="placeincork()">
+						
+						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafsection">
+						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Leaf" id="leafsection1" onclick="putinglassslide()">
+
+					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecss" onclick="bladejsclick()">
+						<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecsscorkcut" > <!--onclick="bladejscorkclick()"-->
+
+						
+
+					<img src="./images/cork.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Cork" id="corkcss">
+					<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Petridish" id="petridishcss">
+					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Glass Slide" id="glassslidecss">
+						<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Coverslip" id="coverslipcss" >
+					<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Beaker" id="beakercss">
+
+						<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="dropper" id="droppercss" >
+						<img src="./images/waterdropper.png" class="img-fluid"  id="dropperwatercss" >
+						<img src="./images/drop.png" class="img-fluid"  id="dropcss" >
+						
+						<img src="./images/water.png" class="img-fluid"  id="watercss" >
+
+
+				</div>
 			</div>
-			<div class="col-md-4">
+			<!--div class="col-md-4 border border-1">
+				<div class="card card-body">
 				<div class="row">
 					<div class="col-md-12">
 						<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-							title="Blade" id="bladecss">
+							title="Blade" id="bladecss" onclick="bladejsclick()">
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="./images/cork.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+							title="Cork" id="corkcss">
 					</div>
 				</div>
 				<br>
@@ -138,13 +187,19 @@
 				<div class="row">
 					<div class="col-md-12">
 						<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
-							title="Beaker" id="beaker">
+							title="Beaker" id="beakercss">
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+		</div-->
+			<div class="col-md-4 border border-1">
+				<div class="card card-body">
 				<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 					title="Microscope" id="mircoscopecss">
+
+					<img src="./images/micro_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+					title="Prepared slide" id="mircoscopeslidecss">
+				</div>
 			</div>
 		</div>
 	</div>
