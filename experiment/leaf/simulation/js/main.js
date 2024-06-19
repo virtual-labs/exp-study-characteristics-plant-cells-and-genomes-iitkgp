@@ -9,13 +9,13 @@ var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
   document.getElementById("bladecss").style.top = 10.5 + '%';
-  var bladeleft = 15; //initial  position
+  var bladeleft = 10; //initial  position
   clearInterval(imgblade);
 
   imgblade = setInterval(frame, 90); /* frame is 90 denotes the speed of the movement*/
 
   function frame() {
-    if (bladeleft == 26) {
+    if (bladeleft == 24) {
 
       clearInterval(imgblade);
       imgtbdown = setInterval(frames, 200);
@@ -31,7 +31,7 @@ function bladejsclick() {
   function frames() {
     clearInterval(imgtbdown);
     var bladetopp = 12;
-    var bladeleftd = 15;
+    var bladeleftd = 10;
     bladeimg.style.left = bladeleftd + '%';
     bladeimg.style.top = bladetopp + '%';
     imgtbdowncut = setInterval(framescut, 60);
@@ -39,12 +39,12 @@ function bladejsclick() {
   }
 
   function framescut() {
-    var bladeleftdcut = 15;
+    var bladeleftdcut = 10;
     clearInterval(imgtbdowncut);
     imgblade = setInterval(framecut2, 90);
 
     function framecut2() {
-      if (bladeleftdcut == 26) {
+      if (bladeleftdcut == 27) {
 
         clearInterval(imgblade);
         document.getElementById("bladecss").style.display = "none";
@@ -195,7 +195,7 @@ function dropperwater() {
 function droppermoveglassslide() {
   document.getElementById("dropperwatercss").style.display = "block";
   document.getElementById("dropperwatercss").style.left = 68 + "%";
-  document.getElementById("dropperwatercss").style.top = 26 + "%";
+  document.getElementById("dropperwatercss").style.top = 23 + "%";
   document.getElementById("droppercss").style.display = "none";
   document.getElementById("dropperwatercss").removeAttribute("onclick", "droppermoveglassslide()()");
   document.getElementById("dropperwatercss").setAttribute("onclick", "dropwaterglassslide()");
