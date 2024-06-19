@@ -8,7 +8,7 @@ var imgtbdowncut = null;
 var bladeimg;
 function bladejsclick() {
   bladeimg = document.getElementById("bladecss");
-  document.getElementById("bladecss").style.top = 10 + '%';
+  document.getElementById("bladecss").style.top = 10.5 + '%';
   var bladeleft = 15; //initial  position
   clearInterval(imgblade);
 

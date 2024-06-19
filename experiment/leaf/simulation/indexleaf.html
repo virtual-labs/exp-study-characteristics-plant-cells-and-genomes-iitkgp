@@ -46,7 +46,7 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header fs-5 fw-bold">
-						Input Panels
+						Equipement required
 
 					</div>
 
@@ -72,7 +72,7 @@
 										Blade</button>
 									<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
-										cork</button>
+										Cork</button>
 									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
 										data-bs-target="#exampleModal">
 										Petri dish</button>
@@ -114,15 +114,19 @@
 			</div>
 		</div>
 		<div class="row ">
-			<div class="col-md-8 border border-1">
-				<div class="card card-body">
+			<div class="col-md-8 ">
+				<div class="card card-body" style="background-color: #362020bb;"><!-- style="background-color: #362020bb;"-->
 					<img src="./images/leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf" id="leafcss">
 						<img src="./images/cutleafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf" id="leafcutsection">
 					<img src="./images/leafcut.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf" id="leafcutcss" onclick="placeincork()">
-						
+
+						<canvas id="canvasleafsection" style="border: 0px solid black;" data-toggle="tooltip" data-placement="bottom"
+						title="Cutting sheet board"> </canvas>
+
+						<!--canvas id="canvasleafsection" style="border: 0px solid black;"> </canvas-->
 						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 						title="Leaf" id="leafsection">
 						<img src="./images/leafsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
@@ -194,9 +198,9 @@
 				</div>
 			</div>
 		</div-->
-			<div class="col-md-4 border border-1">
+			<div class="col-md-4 ">
 				<div class="card card-body">
-				<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+				<img src="./images/mr.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
 					title="Microscope" id="mircoscopecss">
 
 					<img src="./images/micro_glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
