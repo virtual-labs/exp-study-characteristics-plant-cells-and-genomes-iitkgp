@@ -1,6 +1,6 @@
 ## Aim 
 
-To study characteristics of leaf cell.
+To study nature of cells in a leaf and their characteristics.
 
 
 
