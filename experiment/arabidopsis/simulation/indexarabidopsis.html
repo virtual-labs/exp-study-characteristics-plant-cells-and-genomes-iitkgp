@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions 
+
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+							
+
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Input Panels
+
+					</div>
+
+					<div class="card-body">
+						<!--div class="table-responsive"-->
+						<table class="table table-bordered">
+							<tr>
+								<td colspan="2">
+									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Start the Experiment</button-->
+									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+										onclick="restartexp()">
+										Re-Do the Experiment</button>
+								</td>
+							</tr>
+							<!--tr>
+								<td>
+									<select class="form-select" aria-label="Default select example">
+										<option selected>Select</option>
+										<option value="1">Green Leaf</option>
+										<option value="2">Flower</option>
+										<option value="3">Stem</option>
+										<option value="3">Root</option>
+									</select>
+								</td>
+							</tr-->
+							<tr>
+								<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+										<button class="btn btn-info " type="button" id="corki" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										cork</button>
+									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Petri dish</button>
+									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Beaker</button>
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+									<button class="btn btn-info " type="button" id="cglassi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Cover Glass</button>
+									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Dropper</button>
+									<button class="btn btn-info " type="button" id="needlei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Needle</button>
+									<button class="btn btn-info " type="button" id="microscopei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Mircoscope</button>
+
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-4">
+				<img src="./images/leaf.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+					title="Leaf" id="leafcss">
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+							title="Blade" id="bladecss">
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip"
+							data-placement="bottom" title="Petridish" id="petridishcss">
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip"
+							data-placement="bottom" title="Glass Slide" id="glassslidecss">
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip"
+							data-placement="bottom" title="Beaker" id="beaker">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+					title="Microscope" id="mircoscopecss">
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
+</body>
+
+</html>

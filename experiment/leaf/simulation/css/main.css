@@ -1,0 +1,244 @@
+/* You CSS goes in here */
+
+
+
+#leafcss {
+    cursor: pointer;
+    position: relative;
+    top: 85%;
+    left:7%;
+    width:38%;
+    transform: rotate(19deg);
+    z-index: 1;
+}
+
+
+#leafcutsection {
+    cursor: pointer;
+    position: relative;
+    top: 85%;
+    left:7%;
+    width:38%;
+    display: none;
+    transform: rotate(19deg);
+    z-index: 1;
+}
+
+#leafcutcss {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top:18%;
+    left:40%;
+    width: 12.2%;
+    z-index: 2;
+    
+}
+
+#leafsection {
+    cursor: pointer;
+    position: absolute;
+    top: 23.5%;
+    left:63.2%;
+    width:3.2%;
+    display: none;
+    z-index: 2;
+    transform:rotate(90deg);
+}
+
+
+
+#petridishcss {
+    position: absolute;
+    top: 20%;
+    left:75%;
+    width: 15%;
+    cursor: pointer;
+    display: block;
+    
+    
+}
+
+
+#leafsection1 {
+    
+    position: absolute;
+    top: 23%;  /*23 */
+    left:80%; /* 80*/
+    width:2.2%;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+   transform: rotate(30deg);
+}
+
+
+ /*#canvasleafsection{
+    position:absolute;
+    top:2%;
+    left:6%;
+    width:38%;
+    height:95%;
+    background-color: #fdfdfd;
+    display: block;
+    z-index: 0;
+    cursor: pointer;
+    
+} */
+
+#cuttingsheetcss{
+    position:absolute;
+    top:2%;
+    left:6%;
+    width:38%;
+    height:95%;
+    background-color: #fdfdfd;
+    display: block;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* #canvasleafsection{
+    position:absolute;
+    top:18.2%;
+    left:19%;
+    width:12%;
+    height:1.5%;
+    background-color: #362020bb;
+    display: none;
+} */
+
+/* column 1*/
+/*#bladecutcss {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: 7%;
+} */
+
+
+
+#bladecss {
+    position: absolute;
+    top: 5%;
+    left:60%;
+    width: 12%;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+}
+
+#bladecsscorkcut{
+    position: absolute;
+    top: 5%;
+    left:60%;
+    width: 12%;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+#corkcss {
+    position: absolute;
+    top: 18%;
+    left:60%;
+    width:4%;
+    cursor: pointer;
+    
+}
+
+
+
+#glassslidecss {
+    position: absolute;
+    top: 45%;
+    left:60%;
+    width: 20%;
+    cursor: pointer;
+}
+
+#coverslipcss {
+    position: absolute;
+    top: 35%;  /*45 */
+    left:78%; /*75 */
+    width: 4.8%;
+    cursor: pointer;
+    opacity: 50%;
+    z-index: 5;
+}
+
+#beakercss {
+    position: absolute;
+    top: 75%;
+    left:60%;
+    width:11%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#droppercss{
+    position: absolute;
+    top: 67.2%;
+    left:75%;
+    width:3.5%;
+    cursor: pointer;
+}
+
+#dropperwatercss{
+    position: absolute;
+    top: 25%; /* 68*/
+    left:68%; /*75 */
+    width:3.5%;
+    cursor: pointer;
+    display: none;
+}
+
+#watercss{
+    position: absolute;
+    top: 46.3%;  /*45 */
+    left:68%; 
+    width:4%;
+    cursor: pointer;
+    display: none;
+    z-index: 11;
+    opacity: 70%;
+}
+
+#dropcss{
+    position: absolute;
+    top: 45%;  /*45 -- 48*/
+    left:69.3%; 
+    width:0.8%;
+    cursor: pointer;
+    display: none;
+}
+
+
+#mircoscopecss {
+    cursor: pointer;
+    position: relative;
+    top: 5%;
+    left:1%;
+    width:100%
+   
+}
+
+#mircoscopeslidecss {
+    cursor: pointer;
+    position:absolute;
+    top:58.5%;
+    left:39%;
+    width:5%;
+    height:3%;
+    transform: rotate(90deg);
+    display:none;
+}
+
+/* column 1 ends */
+
+
+
+
+
+
+

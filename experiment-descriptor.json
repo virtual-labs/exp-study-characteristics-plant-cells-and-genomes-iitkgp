@@ -1,0 +1,231 @@
+{
+  "unit-type": "lu",
+  "label": "",
+  "basedir": ".",
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    {
+      "unit-type": "task",
+      "label": "Overview",
+      "content-type": "text",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Pretest",
+      "content-type": "assesment",
+      "source": "pretest.json",
+      "target": "pretest.html"
+    },
+    
+    {
+      "unit-type": "lu",
+      "label": "Leaf cell",
+      "basedir": "leaf",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexleaf.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Flower cell",
+      "basedir": "flower",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexflower.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Root cell",
+      "basedir": "root",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexroot.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Stem cell",
+      "basedir": "stem",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexstem.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Arabidopsis genome",
+      "basedir": "arabidopsis",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexarabidopsis.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Rice genome",
+      "basedir": "rice",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Theory",
+          "content-type": "text",
+          "source": "theory.md",
+          "target": "theory.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Procedure",
+          "content-type": "text",
+          "source": "procedure.md",
+          "target": "procedure.html"
+        },
+        {
+          "unit-type": "task",
+          "label": " Simulation",
+          "content-type": "simulation",
+          "source": "simulation/indexrice.html",
+          "target": "indexrice.html"
+        }
+
+      ]
+    },
+    {
+      "unit-type": "task",
+      "label": "Posttest",
+      "content-type": "assesment",
+      "source": "posttest.json",
+      "target": "posttest.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "References",
+      "content-type": "text",
+      "source": "references.md",
+      "target": "references.html"
+    }
+  ]
+}
