@@ -1,6 +1,6 @@
 ## Aim 
 
-To study characteristics of stem cell.
+To study nature of cells in a stem and their characteristics.
 
 
 
