@@ -61,7 +61,7 @@
 #bladecss {
     position: absolute;
     top: 5%;
-    left:60%;
+    left:40%;
     width: 12%;
     cursor: pointer;
     display: block;
@@ -129,20 +129,23 @@
 
 #brushcss{
     position: absolute;
-    top: 5%;
-    left:85%;
-    width:2%;
+    top: 0%;
+    left:90%;
+    width:4%;
     cursor: pointer;
+    transform: rotate(30deg);
 }
 
 
 #forcepcss{
     position: absolute;
-    top: 5%;
-    left:90%;
+    top: 1%;
+    left:75%;
     width:5%;
     cursor: pointer;
+    transform: rotate(90deg);
 }
+
 
 
 #pickforcepcss{
