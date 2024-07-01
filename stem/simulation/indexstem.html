@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+							<li>A fresh stem of a plant (Amaranthus) is chosen.</li>
+							<li>Click on the blade to cut a small portion of stem.</li>
+							<li>Stem section is placed onto a glass microscope slide.</li>
+							<li>Click on the forcep. Click on the blade to cut a small sectiom of stem.</li>
+							<li>Click on the forcep to remove the excess stem.</li>
+							<li>Click on the brush to pick the stem section. Click on the brush to move the stem cut onto a petridish. Click on the brush to move the brush to its original place.</li>
+							<li>Click on the dropper to draw Safranin solution from the beaker. Click to move the dropper above the petridish. Click to  drop a solution of safranin for 2-5 minutes.</li>
+							<li>Click on the brush to pick the stem section. Click on brush to move the stem cut onto a petridish. Click on the brush to move the brush to its original place. </li>
+							<li>Click on the dropper to draw distilled water from the beaker. Click to move the dropper above the petridish. Click to  drop distilled water. </li>
+							<li>Click on the brush to pick the stem section. Click on brush to move the stem cut onto a glass slide. Click on the brush to move the brush the brush to its original place. </li>
+							<li>Click on the dropper to draw water from the beaker. Click to move the dropper above the glass slide. Click to  drop water.</li>
+							<li>Click on the coverslip to place  over the stem section.</li>
+							<li>Place the prepared clean slide on the stage of the microscope.</li>
+							<li>Start with the magnification objective lens, to view the cross section of the stem.</li>
+							
+
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Equipement Required
+
+					</div>
+
+					<div class="card-body">
+						<!--div class="table-responsive"-->
+						<table class="table table-bordered">
+							<tr>
+								<td colspan="2">
+									<!--button class="btn btn-success " type="button" id="start" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Start the Experiment</button-->
+									<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+										onclick="restartexp()">
+										Re-Do the Experiment</button>
+								</td>
+							</tr>
+							<!--tr>
+								<td>
+									<select class="form-select" aria-label="Default select example">
+										<option selected>Select</option>
+										<option value="1">Green Leaf</option>
+										<option value="2">Flower</option>
+										<option value="3">Stem</option>
+										<option value="3">Root</option>
+									</select>
+								</td>
+							</tr-->
+							<tr>
+								<td>
+									<button class="btn btn-info " type="button" id="bladei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Blade</button>
+									<button class="btn btn-info " type="button" id="pdishi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Petri dish</button>
+
+									<button class="btn btn-info " type="button" id="needlei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Safranin</button>
+									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Distiled Water</button>
+									<button class="btn btn-info " type="button" id="beakeri" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Water</button>
+									<button class="btn btn-info " type="button" id="needlei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Forcep</button>
+
+									<button class="btn btn-info " type="button" id="gslidei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Glass Slide</button>
+									<button class="btn btn-info " type="button" id="cglassi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Cover Glass</button>
+									<button class="btn btn-info " type="button" id="dropperi" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Dropper</button>
+									<button class="btn btn-info " type="button" id="microscopei" data-bs-toggle="modal"
+										data-bs-target="#exampleModal">
+										Mircoscope</button>
+								</td>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-8">
+				<div class="card card-body">
+					<img src="./images/stem.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Stem of Amaranthus" id="stemcss">
+
+					<img src="./images/cutsection.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Stem of Amaranthus" id="cutstemcss">
+					<img src="./images/cutstemsection.png" class="img-fluid" id="cutstemseccss">
+
+					<img src="./images/smallstemcut.png" class="img-fluid" id="smallcutstemseccss">
+					<img src="./images/blade.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Blade" id="bladecss" onclick="bladejsclick()">
+					<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Petridish" id="petridishcss">
+					<img src="./images/petridish.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Petridish" id="petridish1css">
+					<img src="./images/brush.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Brush" id="brushcss" >
+					<img src="./images/forceps.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Forcep" id="forcepcss" >
+					<img src="./images/picksectionforcep.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Forcep" id="pickforcepcss">
+					<img src="./images/coverglass.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Coverslip" id="coverslipcss">
+					<img src="./images/glassslide.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Glass Slide" id="glassslidecss">
+					<img src="./images/distbeaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Distiled Water " id="beakercss">
+					<img src="./images/beaker.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Water " id="beakerwatercss">
+					<img src="./images/safraninbeaker.png" class="img-fluid" data-toggle="tooltip"
+						data-placement="bottom" title="Safranin" id="safbeakercss">
+
+					<img src="./images/dropper.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="dropper" id="droppercss">
+					<img src="./images/waterdropper.png" class="img-fluid" id="dropperwatercss">
+					<img src="./images/waterdropper.png" class="img-fluid" id="dropperdistwatercss">
+					<img src="./images/safranin.png" class="img-fluid" id="safranincss">
+
+					<img src="./images/safdrop.png" class="img-fluid" id="safranindropcss">
+					<img src="./images/distwatdrop.png" class="img-fluid" id="distwaterdropcss">
+					<img src="./images/waterdrop.png" class="img-fluid" id="waterdropcss">
+
+
+
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card card-body">
+					<img src="./images/microscope.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Microscope" id="mircoscopecss">
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
+<script src="../../assets/js/iframeResize.js"></script></body>
+
+</html>
